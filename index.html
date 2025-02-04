@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>School Alumni - 75th Anniversary</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+        <header>
+            <nav>
+                <div class="logo">Alumni 75</div>
+                <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+                <ul class="nav-links">
+                    <li><a href="history.html" onclick="closeMenu()">History</a></li>
+                    <li><a href="schedule.html" onclick="closeMenu()">Schedule</a></li>
+                    <li><a href="donations.html" onclick="closeMenu()">Donations</a></li>
+                    <li><a href="updates.html" onclick="closeMenu()">Updates</a></li>
+                    <li><a href="contact.html" onclick="closeMenu()">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2 class="fade-in">Join us in celebrating 75 years of excellence</h2>
+        <p class="fade-in">Reconnect with old friends, relive memories, and make new ones.</p>
+        <a href="schedule.html" class="btn fade-in">View Event Schedule</a>
+    </section>
+
+    <!-- Navigation Tiles -->
+    <section class="nav-tiles">
+        <h2>Explore Our Website</h2>
+        <div class="tiles-container">
+            <a href="history.html" class="tile tile-history">
+                <i class="fas fa-school"></i>
+                <span>School History</span>
+            </a>
+            <a href="schedule.html" class="tile tile-schedule">
+                <i class="fas fa-calendar-alt fa-2xl"></i>
+                <span>Event Schedule</span>
+            </a>
+            <a href="donations.html" class="tile tile-donations">
+                <i class="fas fa-donate"></i>
+                <span>Donations</span>
+            </a>
+            <a href="updates.html" class="tile tile-updates">
+                <i class="fas fa-camera"></i>
+                <span>Event Updates</span>
+            </a>
+            <a href="contact.html" class="tile tile-contact">
+                <i class="fas fa-phone"></i>
+                <span>Contact Us</span>
+            </a>
+        </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
